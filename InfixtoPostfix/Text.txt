@@ -1,0 +1,32 @@
+//Evan Garcia
+//Data Structures II Lab 1
+//April 18, 2015
+//Output
+//The purpose of this program is to convert infix expressions to postfix expressions.
+
+Welcome to Evan's Infix-to-Postfix converter!
+
+Please enter an infix expression, one character at a time:
+A+B*C;
+A+B*C
+AB+C*
+
+Please enter an infix expression, one character at a time:
+(A+B)*C;
+(A+B)*C
+AB+C*
+
+Please enter an infix expression, one character at a time:
+(a+b)*(c-d);
+(a+b)*(c-d)
+ab+cd-*
+
+Please enter an infix expression, one character at a time:
+A+((B+C)*(E-F)-G)/(H-I);
+A+((B+C)*(E-F)-G)/(H-I)
+ABC+EF-*G-+HI-/
+
+Please enter an infix expression, one character at a time:
+A+B*(C+D)-E/F*G+H;
+A+B*(C+D)-E/F*G+H
+AB+CD+*E-F/G*H+
